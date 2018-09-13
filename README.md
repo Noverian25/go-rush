@@ -49,15 +49,27 @@ where "myapp" is the application name.
 3. Change directory to `go-rush` and start the web server:
 
 `$ cd my go-rush`
+
 `$ rails server`
 
 4. Go to `http://localhost:3000` and you'll see: "Yay! You're on Rails!"
 
 ## Installation Gem Testing
 
-1. Add gem rspec, factory girl, faker, database cleaner, capybara and launchy in gem file 
+1. Add installation gem into gem file 
 
-2. Then Run `$ bundle install`
+2. Gem Version:
+   
+   gem 'rspec-rails', ">= 3.4.4"
+   gem 'factory_girl_rails', "~> 4.4.1"
+   gem 'rails-controller-testing'
+   gem 'faker', "~> 1.9.1"
+   gem 'capybara', "~> 2.4.3"
+   gem 'database_cleaner', "~> 1.3.0"
+   gem 'launchy', "~> 2.4.2"
+   gem 'selenium-webdriver', "~> 2.43.0"
+
+3. Then Run `$ bundle install`
 
 ## Database Installation
 
@@ -72,6 +84,12 @@ where "myapp" is the application name.
 2. Create Models, Factories and Controller
 
 3. Then run `$ rspec` or `$ bundle exec rspec`
+
+4. Then run `$ rails server` 
+
+5. Refresh localhost:3000
+
+
 
 
 
