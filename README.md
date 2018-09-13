@@ -64,7 +64,7 @@ where "myapp" is the application name.
 
    `gem 'factory_girl_rails', "~> 4.4.1"`
 
-   `gem 'rails-controller-testing'
+   `gem 'rails-controller-testing'`
    
    `gem 'faker', "~> 1.9.1"`
    
