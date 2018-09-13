@@ -34,51 +34,6 @@ RSpec.describe Driver, type: :model do
 			expect(driver).to eq(false)
 		end
 
-		it 'ensures confirm password presence' do
-			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
-			expect(driver).to eq(false)
-		end
-
-		it 'ensures confirm password presence' do
-			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
-			expect(driver).to eq(false)
-		end
-
-		it 'ensures confirm password presence' do
-			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
-			expect(driver).to eq(false)
-		end
-
-		it 'ensures confirm password presence' do
-			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
-			expect(driver).to eq(false)
-		end
-
-		it 'ensures confirm password presence' do
-			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
-			expect(driver).to eq(false)
-		end
-
-		it 'ensures confirm password presence' do
-			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
-			expect(driver).to eq(false)
-		end
-
-		it 'ensures confirm password presence' do
-			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
-			expect(driver).to eq(false)
-		end
-
-		it 'ensures confirm password presence' do
-			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
-			expect(driver).to eq(false)
-		end
-
-		it 'ensures confirm password presence' do
-			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
-			expect(driver).to eq(false)
-		end
-
 		it 'should save successfully' do
 			driver = Driver.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com', password: '12345').save
 			expect(driver).to eq(true)
