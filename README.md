@@ -60,14 +60,21 @@ where "myapp" is the application name.
 
 2. Gem Version:
    
-   gem 'rspec-rails', ">= 3.4.4"
-   gem 'factory_girl_rails', "~> 4.4.1"
-   gem 'rails-controller-testing'
-   gem 'faker', "~> 1.9.1"
-   gem 'capybara', "~> 2.4.3"
-   gem 'database_cleaner', "~> 1.3.0"
-   gem 'launchy', "~> 2.4.2"
-   gem 'selenium-webdriver', "~> 2.43.0"
+   `gem 'rspec-rails', ">= 3.4.4"`
+
+   `gem 'factory_girl_rails', "~> 4.4.1"`
+
+   `gem 'rails-controller-testing'
+   
+   `gem 'faker', "~> 1.9.1"`
+   
+   `gem 'capybara', "~> 2.4.3"`
+   
+   `gem 'database_cleaner', "~> 1.3.0"`
+   
+   `gem 'launchy', "~> 2.4.2"`
+   
+   `gem 'selenium-webdriver', "~> 2.43.0"`
 
 3. Then Run `$ bundle install`
 
