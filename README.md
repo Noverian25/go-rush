@@ -32,25 +32,26 @@ Things you may want to cover:
 ## Requirements
 
 Ruby Version: 2.5.1
+
 Rails Version: 5.2.1
 
 ## Getting Started
 
 1. Install Rails at the command prompt if you haven't yet:
 
-`$ gem install rails`
+	`$ gem install rails`
 
 2. At the command prompt, create a new Rails application:
 
-`$ rails new go-rush`
+	`$ rails new go-rush`
 
 where "myapp" is the application name.
 
 3. Change directory to `go-rush` and start the web server:
 
-`$ cd my go-rush`
+	`$ cd my go-rush`
 
-`$ rails server`
+	`$ rails server`
 
 4. Go to `http://localhost:3000` and you'll see: "Yay! You're on Rails!"
 
